@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <script src="https://kit.fontawesome.com/8082c38cb4.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <section class="box">
+        <div class="titulo"> 
+            <h1>Todo List</h1>
+        </div>
+        <div class="principal">
+            <h3>Nueva tarea</h3>
+            <input id="nuevaTarea">
+            <button id="agregarTarea">Agregar</button>
+        <div class="pie">
+            <div class="cuenta-tareas">
+                <p id="cuenta-tareas-total">Total: 0</p>
+                <p id="cuenta-tareas-realizadas">Realizadas: 0</p>
+            </div>            
+            <div class="resultado">
+                <ul id="tareas">
+                    <li>
+                        <span>ID:</span>
+                        <input type="checkbox" id="tarea${tarea.id}" ${tareaRealizada}>
+                        <label for="tarea${tarea.id}" ${tarea.realizada}? style="text-decoration: line-through;"' : ''}>${tarea.descripcion}</label>
+                        <span class="eliminar" data-id="${tarea.id}"><i class="fas fa-times-circle text-danger"></i></span>
+                    </li>
+                </ul>
+            </div>  
+        </div>
+    </section>
+    <script src="./assets/js/javascript.js"></script>
+</body>
+</html>

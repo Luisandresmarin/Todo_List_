@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding-top: 100px;
+    
+}
+.box {
+    background-color: rgb(199, 197, 197);
+    border: 1px solid black;
+    padding: 10px;
+    width: 50%;
+}
+h1 {
+    border-bottom: 2px solid rgb(156, 154, 154);
+}
+#nuevaTarea {
+    width: 89%;
+}
+#agregarTarea {
+    background-color: rgb(18, 233, 18);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+h3 {
+    font-size: 15px;
+    margin: 0;
+}
+
+.pie {
+    display: flex;
+    justify-content: space-between;
+}
+
+
